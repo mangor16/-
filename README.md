@@ -16,7 +16,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 npm install
 ```
 
-### 运行json-server  数据服务器(右键点击data文件夹，使用终端打开，输入下方指令，tips: 3000为jsonserver运行的端口号可以自行更改)
+### 先运行json-server  数据服务器，之后在运行npm run dev(右键点击data文件夹，使用终端打开，输入下方指令，tips: 3000为jsonserver运行的端口号可以自行更改)
 
 ```sh
 json-server --watch data.json -p 3000
